@@ -1,0 +1,26 @@
+tr, td, thead, tfoot, tbody, table {
+  border-spacing: 0;
+  text-align: center;
+}
+
+td {
+  padding: 1rem 0;
+}
+
+.table {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.thead {
+  background-color: #282828;
+  color: white;
+  font-size: 1.15rem;
+}
+
+.fila:nth-child(even) {
+  background-color: #EEEEEE;
+}
